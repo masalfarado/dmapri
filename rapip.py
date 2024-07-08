@@ -40,10 +40,8 @@ data = {
 }
 
 # Mengatur judul tab
-st.set_page_config(page_title="Apriori Kelompok 11", layout="wide")
+st.set_page_config(page_title="Apriori Kelompok 11")
 
-# Konten aplikasi di bawah ini
-st.title("Judul Aplikasi")
 # Create DataFrame
 df = pd.DataFrame(data)
 
