@@ -39,6 +39,9 @@ data = {
     ]
 }
 
+# Mengatur judul tab
+st.set_page_config(page_title="Apriori Kelompok 11")
+
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -47,9 +50,6 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
-
-# Mengatur judul tab
-st.set_page_config(page_title="Apriori Kelompok 11")
 
 # Create DataFrame
 df = pd.DataFrame(data)
